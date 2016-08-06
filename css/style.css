@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  padding: 0;
+
+  font-size: 20px;
+  line-height: 1.2;
+  font-family: Helvetica, Arial, sans-serif;
+  color: #ffffff;
+
+  background-color: #312785;
+  background-image:
+    repeating-linear-gradient(
+      150deg,
+      rgba(255, 255, 255, 0.06),
+      rgba(255, 255, 255, 0.06) 1px,
+      transparent 0,
+      transparent 41px),
+    repeating-linear-gradient(
+      -150deg,
+      rgba(255, 255, 255, 0.06),
+      rgba(255, 255, 255, 0.06) 1px,
+      transparent 0,
+      transparent 41px);
+
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+main {
+  padding: 20px 20px 120px 20px;
+
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+
+  font-weight: normal;
+  letter-spacing: -1px;
+}
+
+p {
+  margin: 20px 0;
+}
+
+a:link, a:visited {
+  color: #ffffff;
+  text-decoration: underline
+}
+
+a:hover {
+  text-decoration: none
+}
